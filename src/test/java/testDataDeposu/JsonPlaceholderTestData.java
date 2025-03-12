@@ -2,6 +2,9 @@ package testDataDeposu;
 
 import org.json.JSONObject;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class JsonPlaceholderTestData {
 
     public int successStatusCode = 200;
@@ -16,5 +19,14 @@ public class JsonPlaceholderTestData {
                 "expedita earum mollitia molestiae aut atque rem suscipit\n" +
                 "nam impedit esse");
         return body;
+    }
+
+    public Map requestBodyMapCreate(){
+        Map <String, Object> requestBodyMap = new HashMap<>();
+        requestBodyMap.put("title","Ahmet");
+        requestBodyMap.put("body","Merhaba");
+        requestBodyMap.put("userId",10.0);
+        requestBodyMap.put("id",70.0);
+        return requestBodyMap;
     }
 }
