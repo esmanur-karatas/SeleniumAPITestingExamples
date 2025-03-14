@@ -27,15 +27,13 @@ Bu proje, **Selenium, RestAssured, JUnit ve TestNG** kullanarak çeşitli API te
    ```sh
    git clone https://github.com/kullanici/api-test-automation.git
 Gerekli bağımlılıkları yükleyin:
-sh
-Kopyala
-Düzenle
+ ```sh
 mvn clean install
+ ```
 Testleri çalıştırın:
-sh
-Kopyala
-Düzenle
+ ```sh
 mvn test
+ ```
 📌 Test Sonuçları
 Test çalıştırmalarından sonra sonuçları görmek için test-output klasörüne bakabilirsiniz.
 
